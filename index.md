@@ -7,23 +7,41 @@ permalink: /
 last_modified_date: 2020-04-27T17:54:08+0000
 ---
 
-# Focus on writing good documentation
+## AI 在线
 {: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+由于人工智能是一个综合性学科，所以其对资源地整合有着更高的要求。具体来说，人工智能领域下的机器学习模型和深度学习模型所涉及的学科内容包括且不限于以下的内容:
+* 基本数学知识(比如矩阵运算和函数求导)
+* 基本的编程知识(比如Python基础)
+* 简单的统计概念(比如数据清洗及其可视化等)
+* 具体的生活场景应用(比如AI医疗和智慧城市等)
+
+因此，为了更加有效地推进人工智能学科的学习，增加普罗大众对这个领域的认识，该网站试图有序地整合和呈现相关资源，尽可能成为人工智能领域内具有一定审美趣味的一站式索引终端。
+
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[使用说明](#使用说明){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+
+<!-- [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 } -->
 
 ---
 
-## Getting started
+## 使用说明
 
-### Dependencies
+### Python基础
 
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
+因为。。
 
-### Quick start: Use as a GitHub Pages remote theme
+```python
+import numpy as np
+```
+
+也可以嵌入interactive python console, so cool:
+
+<iframe src="https://trinket.io/embed/python3/3f11f21375" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+### 数据呈现
+
 
 1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
 ```yaml
