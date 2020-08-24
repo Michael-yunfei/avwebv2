@@ -20,6 +20,7 @@ nav_order: 1
 
 数学运算符，是为了对数进行运算，主要的算数运算符包括(主要适用于整数和小数):
 <div class="code-example" markdown="1">
+
 | 运算符     | 说明          | 案例 |
 |:-------------|:------------------|:------|
 | +           | 加法 | 2+3;  x + y  |
@@ -29,6 +30,7 @@ nav_order: 1
 | %           |  取余  | 7%3; x%y |
 |**           |  指数运算  |3**2; x**y|
 |//           |   整除  |9//4; x//y |
+
 </div>
 
 我们看一下具体的例子和代码:
@@ -36,26 +38,25 @@ nav_order: 1
 x = 6
 y = 2
 
-# addition
-print(x + y)		# 8
+# 加、减、乘、除
+print(x + y)	# 8
 
-# subtraction
-print(x - y)		# 4
+print(x - y)	# 4
 
-# multiplication
-print(x * y)		# 12
+print(x * y)	# 12
 
-# division
-print(x / y)		# 3.0
+print(x / y)	# 3.0
 
-# modulus
-print(x % y)		# 0
+# 取余
+print(x % y)	# 0
+print(9 % 2)  # 1
 
-# exponentiation
-print(x ** y)		# 36
+# 指数
+print(x ** y)	# 36
 
-# floor division
+# 整除
 print(x // y)		# 3
+print(9 // 2)  # 4
 ```
 
 
