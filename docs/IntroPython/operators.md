@@ -5,7 +5,7 @@ parent: Python基础
 nav_order: 1
 ---
 
-# Typography
+# 运算符
 {: .no_toc }
 
 ## Table of contents
@@ -157,4 +157,6 @@ print(not(x > 0 and y < 0))  # False
 ```
 
 
-### 会员运算符
+### 其它的运算符
+
+Python里还有一些其它的运算符，由于其在编程过程中并不常用，我们留待后面再介绍。
