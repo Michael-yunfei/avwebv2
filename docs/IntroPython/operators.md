@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 运算符
-parent: IntroPython
+parent: Python基础
 nav_order: 1
 ---
 
