@@ -78,8 +78,57 @@ print(9 // 2)  # 4
 
 </div>
 
+```python
+x = 2
+x += 3
+print(x)  # 5
+
+x = 6
+x *=2
+print(x)  # 12
+```
 
 ## 关系运算符
+
+类似于我们数学中的运算一样，关系运算符是用来进行比较的，比较之后返回真(True)或假(False)的结果:
+
+<div class="code-example" markdown="1">
+
+| 运算符     | 说明          | 案例 |
+|:-------------|:------------------|:------|
+| ==           | 等同于 | x == y  |
+| != | 不等同于   | x != y  |
+| >           | 大于     | x > y  |
+| <           | 小于 | x < y |
+| >=         |  大于等于  | x >= y |
+| <=          |  小于等于  | x <= y|
+
+</div>
+
+```python
+x = 6
+y = 2
+
+# equal to
+print(x == y)  # False
+
+# not equal to
+print(x != y)  # True
+
+# greater than
+print(x > y)  # True
+
+# less than
+print(x < y)  # False
+
+# greater than or equal to
+print(x >= y)  # True
+
+# less than or equal to
+print(x <= y)  # False
+```
+
+
 
 ## 逻辑运算符
 
