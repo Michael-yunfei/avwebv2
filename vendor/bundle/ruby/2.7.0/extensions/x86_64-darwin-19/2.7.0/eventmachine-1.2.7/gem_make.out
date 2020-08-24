@@ -1,0 +1,16 @@
+current directory: /Users/Michael/Documents/Jekyll/aiwebv2/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/Michael/.rvm/rubies/ruby-2.7.0/bin/ruby -I /Users/Michael/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20200825-68806-lw9xiy.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Michael/Documents/Jekyll/aiwebv2/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/Michael/Documents/Jekyll/aiwebv2/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/Michael/Documents/Jekyll/aiwebv2/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 fastfilereaderext.bundle ./.gem.20200825-68806-s4umi6
