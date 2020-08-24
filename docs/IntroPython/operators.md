@@ -88,7 +88,7 @@ x *=2
 print(x)  # 12
 ```
 
-## 关系运算符
+### 关系运算符
 
 类似于我们数学中的运算一样，关系运算符是用来进行比较的，比较之后返回真(True)或假(False)的结果:
 
@@ -128,8 +128,33 @@ print(x >= y)  # True
 print(x <= y)  # False
 ```
 
+### 逻辑运算符
+
+Python 也可以进行逻辑运算, 与(and), 或(or), 非(not):
+
+<div class="code-example" markdown="1">
+
+| 运算符     | 说明          | 案例 |
+|:-------------|:------------------|:------|
+| and | A and B : 只有A和B同真时为真，否则为假 | (10 > 2) and (2 < 1) 结果: False |
+| or | A or B: 只要有一个为真则为真，否则为假 | (10 > 2) or (2 < 1) 结果: True |
+|not |  not A: A的否定 | not (100 > 2) 结果: False |
+
+</div>
+
+```python
+x = 2
+y = -2
+
+# and
+print(x > 0 and y < 0)  # True
+
+# or
+print(x > 0 or y < 0)  # True
+
+# not
+print(not(x > 0 and y < 0))  # False
+```
 
 
-## 逻辑运算符
-
-## 会员运算符
+### 会员运算符
