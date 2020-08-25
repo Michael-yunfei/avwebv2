@@ -86,3 +86,29 @@ print(grade)  # [96, 95, 93]
 subject.pop(2)
 print(subject)  # ['Math', 'Arts', 'Science']
 ```
+
+### 字典
+
+字典(dict), 由多个元素构成的集合，与列表不同，字典没有默认数字索引。因为字典没有默认数字索引，所以我们需要引入索引键(key)来访问对应的元素值(value)。
+
+```python
+Lucy = {"Math": 98, "English": 86, "Science": 93}
+Michael = {“Math”: 93, “English”: 92, “Science”: 86}
+print(Lucy["Math"])  # 98
+```
+
+字典的相关函数和运算可以概括在下面的表格中
+
+<div class="code-example" markdown="1">
+
+|       函数       |           说明           |
+|:----------------:|:------------------------:|
+|      len( )      |       查看字典长度       |
+|     [‘key’ ]     |  根据索引键来调取某个值  |
+|    dict.keys()   |     显示字典的索引键     |
+|   dict.values()  |     显示字典的元素值     |
+|   dict.items()   | 显示字典的索引键和元素值 |
+|    dict.copy()   |         复制字典         |
+| dict.pop(‘key’ ) |     删除字典中的元素     |
+
+</div>
