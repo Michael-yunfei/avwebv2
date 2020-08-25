@@ -143,5 +143,30 @@ for i in range(4):
 |   1  |  李飞飞  |   Lucy   |  98  |  85  |  96  |
 |   2  |  刘泰宇  |   David  |  87  |  93  |  92  |
 |   3  |  王云逸  |  Michael |  90  |  91  |  93  |
-|   4  |  陈小帅  |    **Leo**   |  **69**  |  89  |  88  |
+|   4  |  陈小帅  |    <span style="color:red;">Leo</span>   |  <span style="color:red;">69</span> |  89  |  88  |
 |   5  |  董明翔  |   Emmet  |  83  |  93  |  87  |
+
+```python
+name_english = ["Lucy", "David", "Michael", "Leo", "Emmet"]
+grade_mandarin = [98, 87, 90, 69, 83]
+for nm in range(len(name_english)):
+    print(nm)
+    print(name_english[nm])
+    print(grade_mandarin[nm])
+    if name_english[nm] == "Leo":
+        grade_mandarin[nm] = 79
+        break
+print(grade_mandarin)  # [98, 87, 90, 79, 83]
+# 0
+# Lucy
+# 98
+# 1
+# David
+# 87
+# 2
+# Michael
+# 90
+# 3
+# Leo
+# 69
+```
