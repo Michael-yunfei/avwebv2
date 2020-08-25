@@ -31,4 +31,4 @@ print(len(L1))  # 4
 ```
 一旦被创建，其元素将会被标注为，而且透过这些标注也可以调用相应元素。
 
-![ListIndex](/images/listindex.png)
+![](/images/listindex.png)
