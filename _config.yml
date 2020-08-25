@@ -57,8 +57,8 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "云斐的个人网站":
-    - "https://www.michaelyunfei.com"
+  "商汤科技":
+    - "https://www.sensetime.com/cn"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
