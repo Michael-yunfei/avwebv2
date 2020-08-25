@@ -67,7 +67,7 @@ else:
   print('x and y are equal')
 ```
 
-### 循环语句
+### for 循环语句
 
 循环语句对于第一次接触的学员来说，可能需要多做几个练习来熟练, 我们以一个案例穿插整个讲解。下面是某一个班级的成绩统计，我们根据不同的情况，经常需要:
 - 逐个打印每位同学的数学成绩
@@ -134,7 +134,7 @@ for i in range(4):
 # 3
 ```
 
-### 循环中的continue, break
+### for 循环中的continue, break
 
 在遍历所有内容时，我们经常需要根据不同的情况跳出或者终止循环，比如Leo的语文成绩错误，需要单独修改他的语文成绩。
 
@@ -207,4 +207,27 @@ for nm in range(len(name_english)):
 # 4
 # Emmet
 # 100
+```
+
+### while 循环
+
+与 for 循环不同，while 循环需要设置初始条件，并且以此来验证循环是否继续。因为while循环时条件判定循环，所有经常在人工智能中用来:
+- 判定损失函数差值小于容错值时来结束循环
+- 循环次数大于某个特定值时来介绍循环
+
+```python
+name_english = ["Lucy", "David", "Michael", "Leo", "Emmet"]
+i = 0  # 设置初始条件
+while i < len(name_english):
+    print(i)
+    print(name_english[i])
+    i = i + 1
+
+i = 0
+error = 1.0
+while error > 0.003:
+  error -= 0.00001
+  i += 1
+
+print(i)
 ```
