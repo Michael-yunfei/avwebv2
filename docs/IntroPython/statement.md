@@ -170,3 +170,41 @@ print(grade_mandarin)  # [98, 87, 90, 79, 83]
 # Leo
 # 69
 ```
+
+现在我们考虑另外一种情况，只有Leo的语文成绩没错，其它的都错了。
+
+| 序号 | 中文姓名 | 英文姓名 | 语文 | 数学 | 英文 |
+|------|:--------:|:--------:|:----:|:----:|:----:|
+|   1  |  李飞飞  |    <span style="color:red;">Lucy</span>  |   <span style="color:red;">98</span> |  85  |  96  |
+|   2  |  刘泰宇  |    <span style="color:red;">David</span> |   <span style="color:red;">87</span>  |  93  |  92  |
+|   3  |  王云逸  |   <span style="color:red;">Michael</span> |   <span style="color:red;">90</span>  |  91  |  93  |
+|   4  |  陈小帅  |   Leo   |  <span style="color:red;">69</span> |  69  |  88  |
+|   5  |  董明翔  |    <span style="color:red;">Emmet</span> |   <span style="color:red;">83</span>  |  93  |  87  |
+
+```python
+name_english = ["Lucy", "David", "Michael", "Leo", "Emmet"]
+grade_mandarin = [98, 87, 90, 69, 83]
+grade_yuwen = [100, 100, 100, 100, 100]
+for nm in range(len(name_english)):
+    print(nm)
+    print(name_english[nm])
+    if name_english[nm] == "Leo":
+        continue
+    grade_mandarin[nm] = grade_yuwen[nm]
+    print(grade_mandarin[nm]) # [100, 100, 100, 69, 100]
+
+# 0
+# Lucy
+# 100
+# 1
+# David
+# 100
+# 2
+# Michael
+# 100
+# 3
+# Leo
+# 4
+# Emmet
+# 100
+```
