@@ -81,3 +81,44 @@ else:
 |   3  |  王云逸  |  Michael |  90  |  91  |  93  |
 |   4  |  陈小帅  |    Leo   |  69  |  89  |  88  |
 |   5  |  董明翔  |   Emmet  |  83  |  93  |  87  |
+
+
+```python
+name_english = ["Lucy", "David", "Michael", "Leo", "Emmet"]
+for i in name_english:
+    print(i)
+
+# Lucy
+# David
+# Michael
+# Leo
+# Emmet
+
+grade_mandarin = [98, 87, 90, 69, 83]
+for gd in grade_mandarin:
+    if gd >= 90:
+        print("成绩优秀")
+    elif gd >= 80:
+        print("成绩良好")
+    else:
+        print("不及格或成绩一般")
+
+# 成绩优秀
+# 成绩良好
+# 成绩优秀
+# 不及格或成绩一般
+# 成绩良好
+```
+
+循环语句只有在存在可迭代对象时才可以使用，以下就是常见的可迭代对象。
+
+|     可迭代对象    |                           说明                           |
+|:-----------------:|:--------------------------------------------------------:|
+|    字符串string   | for var in "string":                                     |
+|      列表list     | for var in [0, 1, "hello"]:                              |
+|      字典dict     | for key, value in {"Michael": 90, "Marion": 80}.items(): |
+|                   | for key in {"Michael": 90, "Marion": 80}.keys():         |
+|                   | for value in {"Michael": 90, "Marion": 80}.values():     |
+|     元组tuple     | for t in (10, 12):                                       |
+|   索引函数range   | for i in range(6):                                       |
+| 索引函数enumerate | for index, var in enumerate("string"):                   |
