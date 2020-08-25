@@ -114,11 +114,11 @@ for gd in grade_mandarin:
 
 |     可迭代对象    |                           说明                           |
 |:-----------------:|:--------------------------------------------------------:|
-|    字符串string   | for var in "string":                                     |
+|    字符串string   | <for var in "string":>                                     |
 |      列表list     | for var in [0, 1, "hello"]:                              |
 |      字典dict     | for key, value in {"Michael": 90, "Marion": 80}.items(): |
-|                   | for key in {"Michael": 90, "Marion": 80}.keys():         |
-|                   | for value in {"Michael": 90, "Marion": 80}.values():     |
+|                   | for key in {"Michael": 80, "Marion": 90}.keys():         |
+|                   | for value in {"Michael": 60, "Marion": 80}.values():     |
 |     元组tuple     | for t in (10, 12):                                       |
 |   索引函数range   | for i in range(6):                                       |
 | 索引函数enumerate | for index, var in enumerate("string"):                   |
