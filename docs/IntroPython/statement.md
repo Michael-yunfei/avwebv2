@@ -231,3 +231,15 @@ while error > 0.003:
 
 print(i)
 ```
+
+最后给出for循环和while循环的对比:
+
+|          |             for             |           while           |
+|----------|:---------------------------:|:-------------------------:|
+| 初始条件 |           可有可无          |       多数情况下需要      |
+| 进入循环 |      for i in iterable:     |        while True:        |
+| 循环次数 |             固定            |       由判定条件决定      |
+| 相关函数 |            break            |           break           |
+|          |           continue          |          continue         |
+|          |             pass            |            pass           |
+| 如何选择 | 已知可迭代对象的长度优选for | 条件判定下的循环优选while |
