@@ -31,7 +31,7 @@ print(len(L1))  # 4
 ```
 一旦被创建，其元素将会被标注为，而且透过这些标注也可以调用相应元素。
 
-![](https://github.com/Michael-yunfei/avwebv2/blob/gh-pages/images/listIndex.png)
+<!-- ![](https://github.com/Michael-yunfei/avwebv2/blob/gh-pages/images/listIndex.png) -->
 
 列表的相关函数和运算可以概括在下面的表格中
 
@@ -112,3 +112,24 @@ print(Lucy["Math"])  # 98
 | dict.pop(‘key’ ) |     删除字典中的元素     |
 
 </div>
+
+练习一下相应的函数:
+```python
+dict1 = {"Math": 98, "English": 86, "Science": 93}
+print(dict1.items())  #
+print(dict1.keys())  #
+print(dict1.values())  #
+dict2 = {"name": "Michael", "Math": 98, "English": 86, "Science": 93}
+print(dict2["Math"])
+dict2.pop("Math")
+print(dict2)  #
+```
+
+### 元组
+
+元组(tuple), 由多个元素构成的有序的集合，但是一旦创建则不可以修改。元组可以理解为不可以修改的列表。
+
+```python
+tuple1 = ("Math", 19, "Science")
+print(tuple1[2])  # Science
+```
