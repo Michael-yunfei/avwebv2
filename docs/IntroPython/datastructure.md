@@ -50,3 +50,39 @@ print(len(L1))  # 4
 
 
 </div>
+
+```python
+name_english = ["Lucy", "David", "Michael", "Leo", "Emmet"]
+grade_mandarin = [98, 87, 90, 69, 83]
+print(name_english[0])
+print(name_english[1])  # David
+print(name_english[2])
+print(name_english[3])
+
+grade_mandarin[3] = 100  # 修改内容
+print(grade_mandarin)  # [98, 87, 90, 100, 83]
+```
+
+练习使用添加和删除函数
+
+```python
+grade = [96, 95, 93]
+subject = ["Math", "Arts", "Science"]
+grade.append(88)  
+print(grade)  # [96, 95, 93, 88]
+subject.append("English")
+print(subject)  # [‘Math’, ‘Arts’, ‘Science’, ‘English’]    
+grade.insert(2, 100)
+print(grade)  # [96, 95, 100, 93, 88]
+subject.insert(2, "Music")
+print(subject)  # ['Math', 'Arts', 'Music', 'Science', 'English']
+
+grade.pop()
+print(grade) # [96, 95, 100, 93]
+subject.pop()
+print(subject)  # ['Math', 'Arts', 'Music', 'Science']
+grade.pop(2)
+print(grade)  # [96, 95, 93]
+subject.pop(2)
+print(subject)  # ['Math', 'Arts', 'Science']
+```
