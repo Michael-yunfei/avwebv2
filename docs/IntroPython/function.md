@@ -106,7 +106,23 @@ def resid(a, b):
   return c
 
 
-print(resid(7, 3))
+print(resid(7, 3))  # 1
+
+
+def resid2(a, b):
+  """
+  取余数的函数:
+    输入 - a, b
+    输出 - a % b; b % a
+  """
+  c = a % b
+  d = b % a
+  return c, d 
+
+
+ab1, ab2 = resid2(7, 3)
+print(ab1)
+print(ab2)
 ```
 
 
