@@ -44,6 +44,7 @@ def print_hello2(name):
 
 print_hello2("Michael")
 ```
+{: .fs-5 }
 
 ### 函数的输入
 
@@ -75,6 +76,7 @@ func(name='Bob', job='developer')
 func(job='developer', name='Bob')
 # Prints Bob is a developer
 ```
+{: .fs-5 }
 
 ```python
 def print_arguments(*args):
@@ -90,11 +92,12 @@ def print_arguments(**kwargs):
 print_arguments(name='Bob', age=25, job='dev')
 # Prints {'name': 'Bob', 'age': 25, 'job': 'dev'}
 ```
+{: .fs-5 }
 
 ### 函数的输出
 
 函数的输出可以是一个，也可以是多个。
-{: .fs-5 }
+
 ```python
 def resid(a, b):
   """
@@ -124,6 +127,7 @@ ab1, ab2 = resid2(7, 3)
 print(ab1)
 print(ab2)
 ```
+{: .fs-5 }
 
 ### 函数的说明
 
