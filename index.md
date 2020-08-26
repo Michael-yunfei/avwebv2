@@ -54,7 +54,7 @@ Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/j
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
 
-如果想要对此开源项目进行编码贡献，请发送邮件联系Github repository的创建者，获得运行后方可参与网站共建。详情请浏览[our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
+如果想要对此开源项目进行编码贡献，请发送邮件联系Github repository的创建者，获得赞许后方可参与网站共建。详情请浏览[our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
 
 #### Thank you to the contributors of Just the Docs!
 
