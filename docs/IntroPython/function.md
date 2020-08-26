@@ -94,7 +94,7 @@ print_arguments(name='Bob', age=25, job='dev')
 ### 函数的输出
 
 函数的输出可以是一个，也可以是多个。
-
+{: .fs-5 }
 ```python
 def resid(a, b):
   """
@@ -147,6 +147,7 @@ def square_loss(x, y, theta):
     loss = 1/2 * 1/n * np.sum(np.square(yhat - y))
     return loss
 ```
+{: .fs-5 }
 
 
 
