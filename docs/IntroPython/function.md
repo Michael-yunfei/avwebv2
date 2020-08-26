@@ -133,7 +133,7 @@ print(ab2)
 
 为了帮助函数使用者更好得了解该函数的作用，我们通常会在函数体的开始加入注释。
 
-```python
+```Python
 # Define the cost function
 def square_loss(x, y, theta):
     """
