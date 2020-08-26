@@ -21,7 +21,7 @@ last_modified_date: 2020-04-27T17:54:08+0000
 {: .fs-6 .fw-300 }
 
 [使用说明](#使用说明){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[ ](http://example.com/){: .btn .btn-blue }
+[案例展示](#案例展示){: .btn .btn-blue }
 
 <!-- [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 } -->
 
@@ -51,6 +51,9 @@ m1 = np.asmatrix([[1, 0], [0, 1]])  # 建立一个简单的矩阵
 
 
 ## 案例展示
+
+这里，我们选取
+
 
 ---
 
