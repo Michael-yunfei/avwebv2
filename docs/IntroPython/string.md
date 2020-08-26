@@ -14,6 +14,7 @@ print("hello world")  # hello world
 
 print("^_@")  # ^_@
 ```
+{: .fs-5 }
 
 下面我们创建几个字符串
 
@@ -21,6 +22,7 @@ print("^_@")  # ^_@
 s1 = "Hello World"
 s2 = "你好世界"
 ```
+{: .fs-5 }
 
 字符串也可以进行基本的运算，其常用函数和基本运算有:
 <div class="code-example" markdown="1">
@@ -42,3 +44,4 @@ print(s1+s2)  # Helloworld
 print("SenseTime" * 2)  # SenseTimeSenseTime
 print(“Sense Time” * 2)  # Sense TimeSense Time  # 注意空格位置
 ```
+{: .fs-5 }

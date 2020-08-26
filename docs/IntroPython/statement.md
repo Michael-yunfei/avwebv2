@@ -28,6 +28,7 @@ y = 6
 import numpy as np
 m1 = np.matrix([[1, 0], [0, 1]])  # 先导入再使用
 ```
+{: .fs-5 }
 
 ### 分支语句
 
@@ -66,6 +67,7 @@ elif x < y:
 else:
   print('x and y are equal')
 ```
+{: .fs-5 }
 
 ### for 循环语句
 
@@ -109,6 +111,7 @@ for gd in grade_mandarin:
 # 不及格或成绩一般
 # 成绩良好
 ```
+{: .fs-5 }
 
 循环语句只有在存在可迭代对象时才可以使用，以下就是常见的可迭代对象。
 
@@ -133,6 +136,7 @@ for i in range(4):
 # 2
 # 3
 ```
+{: .fs-5 }
 
 ### for 循环中的continue, break
 
@@ -170,6 +174,7 @@ print(grade_mandarin)  # [98, 87, 90, 79, 83]
 # Leo
 # 69
 ```
+{: .fs-5 }
 
 现在我们考虑另外一种情况，只有Leo的语文成绩没错，其它的都错了。
 
@@ -208,6 +213,7 @@ for nm in range(len(name_english)):
 # Emmet
 # 100
 ```
+{: .fs-5 }
 
 ### while 循环
 
@@ -231,6 +237,7 @@ while error > 0.003:
 
 print(i)
 ```
+{: .fs-5 }
 
 最后给出for循环和while循环的对比:
 

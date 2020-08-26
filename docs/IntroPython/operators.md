@@ -58,6 +58,7 @@ print(x ** y)	# 36
 print(x // y)  # 3
 print(9 // 2)  # 4
 ```
+{: .fs-5 }
 
 
 ### 赋值运算符
@@ -87,6 +88,7 @@ x = 6
 x *=2
 print(x)  # 12
 ```
+{: .fs-5 }
 
 ### 关系运算符
 
@@ -127,6 +129,7 @@ print(x >= y)  # True
 # less than or equal to
 print(x <= y)  # False
 ```
+{: .fs-5 }
 
 ### 逻辑运算符
 
@@ -155,6 +158,7 @@ print(x > 0 or y < 0)  # True
 # not
 print(not(x > 0 and y < 0))  # False
 ```
+{: .fs-5 }
 
 
 ### 其它的运算符

@@ -29,6 +29,8 @@ nav_order: 3
 L1 = [123, "Hello", 58.92, "world"]  # 有数字 也有 字符
 print(len(L1))  # 4
 ```
+{: .fs-5 }
+
 一旦被创建，其元素将会被标注为，而且透过这些标注也可以调用相应元素。
 
 <!-- ![](https://github.com/Michael-yunfei/avwebv2/blob/gh-pages/images/listIndex.png) -->
@@ -62,6 +64,7 @@ print(name_english[3])
 grade_mandarin[3] = 100  # 修改内容
 print(grade_mandarin)  # [98, 87, 90, 100, 83]
 ```
+{: .fs-5 }
 
 练习使用添加和删除函数
 
@@ -86,6 +89,7 @@ print(grade)  # [96, 95, 93]
 subject.pop(2)
 print(subject)  # ['Math', 'Arts', 'Science']
 ```
+{: .fs-5 }
 
 ### 字典
 
@@ -96,6 +100,7 @@ Lucy = {"Math": 98, "English": 86, "Science": 93}
 Michael = {“Math”: 93, “English”: 92, “Science”: 86}
 print(Lucy["Math"])  # 98
 ```
+{: .fs-5 }
 
 字典的相关函数和运算可以概括在下面的表格中
 
@@ -124,6 +129,7 @@ print(dict2["Math"])
 dict2.pop("Math")
 print(dict2)  #
 ```
+{: .fs-5 }
 
 ### 元组
 
@@ -133,3 +139,4 @@ print(dict2)  #
 tuple1 = ("Math", 19, "Science")
 print(tuple1[2])  # Science
 ```
+{: .fs-5 }
