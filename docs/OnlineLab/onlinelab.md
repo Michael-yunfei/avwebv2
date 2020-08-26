@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 在线实验
-nav_order: 2
+nav_order: 6
 has_children: true
 permalink: /docs/OnlineLab
 ---

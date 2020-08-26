@@ -43,9 +43,9 @@ print(m1)
 | matplotlib | 主要进行数据可视化和作图模块     | import matplotlib.pyplot as plt |
 
 
+### 常用模块介绍
 
-
-
+Python中的常用模块有几十个，这里我们只介绍人工智能领域内常用的模块。
 
 
 
